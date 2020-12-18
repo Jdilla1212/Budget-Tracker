@@ -1,63 +1,87 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Workout Tracker
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+![License badge](https://img.shields.io/badge/license-MIT-green)
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+[For deployed version, click me]()
 
-Offline Functionality:
+![Image of DEMO application](https://github.com/Jdilla1212/Budget-Tracker/tree/main/public/images/Capture.PNG) 
 
-  * Enter deposits offline
+<br>
 
-  * Enter expenses offline
+  ## Description 
 
-When brought back online:
+  Budget Tracker is an easy to use app that allows you track your expenses whether you're online or off so you can keep track on the go!
+  
+<br>
 
-  * Offline entries should be added to tracker.
+  ## Table of Contents
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+  * [Installation](#installation)
 
-## Business Context
+  * [Usage](#usage)
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+  * [Built With](#Built)
 
+  * [Contribution](#contributors)
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+  * [Contact](#Contact) 
 
-- - -
+  * [License](#License) 
 
-## Commit Early and Often
+  
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+<br>
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+  ## Installation Instructions
+  Clone the repository and open in your local code editor.  You'll need to install Node.js and all the necessary npm packages and dependencies.   
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+<br>
 
-* Follow these guidelines for committing:
+  ## Built With
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+  * [Express](https://expressjs.com/) - Express, our web framework
+  * [Morgan](https://www.npmjs.com/package/morgan) - Morgan, an improved logging library that works nicely with Express. Now, all requests to our server get logged out in the console. 
+  * [Mongoose](https://mongoosejs.com/) - Mongoose, elegant mongodb object modeling for node.js
+  * [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) IndexedDB is a low-level API for client-side storage of significant amounts of structured data, including files/blobs.
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+<br>
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+  ## Usage
+  Use the link for the deployed version at the top of this page!
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+<br>
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+  ## Contributors 
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+* [Josh Padilla](https://github.com/Jdilla1212)
 
-## Submission on BCS
+<br>
 
-* You are required to submit the following:
+  ## Questions 
+  
+* [Reach out to me on Github](https://github.com/Jdilla1212)
 
-  * the URL to the deployed application
+<hr>
 
-  * the URL to the Github repository
+  ## Licence 
+MIT License
 
+Copyright (c) 2020 github.com/Jdilla1212
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
