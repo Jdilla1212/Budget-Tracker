@@ -1,8 +1,8 @@
-# Workout Tracker
+# Budget Tracker
 
 ![License badge](https://img.shields.io/badge/license-MIT-green)
 
-[For deployed version, click me]()
+[For deployed version, click me](https://powerful-sands-86074.herokuapp.com/)
 
 ![Image of DEMO application](https://github.com/Jdilla1212/Budget-Tracker/blob/main/public/images/Capture.PNG) 
 
