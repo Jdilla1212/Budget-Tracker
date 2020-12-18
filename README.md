@@ -4,7 +4,7 @@
 
 [For deployed version, click me]()
 
-![Image of DEMO application](https://github.com/Jdilla1212/Budget-Tracker/tree/main/public/images/Capture.PNG) 
+![Image of DEMO application](https://github.com/Jdilla1212/Budget-Tracker/blob/main/public/images/Capture.PNG) 
 
 <br>
 
